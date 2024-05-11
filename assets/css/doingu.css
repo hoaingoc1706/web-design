@@ -1,0 +1,219 @@
+/* --------------------------------- COMMON --------------------------------- */
+input, textarea{
+    outline: none;
+}
+/* --------------------------------- COMMON --------------------------------- */
+.bookmark {
+    position: relative;
+    min-height: 450px;
+    background-image: url('../images/breadcrumb-bg.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.bookmark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-bookmark {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.content-bookmark > div h1{
+    font-size: 60px;
+}
+.content-bookmark > div h3{
+    font-weight: normal;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.content-bookmark > div{
+    padding-top: 180px;
+}
+/* ---------------------------------- TEAM ---------------------------------- */
+.team{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 70px;
+    gap: 30px;
+}
+.member{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.member img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-member{
+    width: 100%;
+    height: 292px;
+    position: relative;
+    transition: 0.2s;
+}
+.member h2{
+    padding-top: 20px;
+}
+.app-contact {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    gap: 10px;
+}
+.member:hover .app-contact{
+    display: flex;
+    transition: 0.2s ease-in;
+}
+.app-contact a{
+    padding: 10px 13px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: block;
+}
+.app-contact a:nth-child(1){
+    background-color: #106bff;
+}
+.app-contact a:nth-child(2){
+    background-color: #249ef0;
+}
+.app-contact a:nth-child(3){
+    background-color: #e7082a;
+}
+.app-contact a:nth-child(4){
+    background-color: #d75a60;
+    padding: 10px 14px;
+}
+.app-contact a:hover {
+    background-color: rgba(0, 0, 255, 0.3); 
+}
+
+.img-member::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 252, 45, 0.3);
+    opacity: 0; 
+    transition: opacity 0.2s ease; 
+}
+
+.member:hover .img-member::before {
+    opacity: 1; 
+}
+/* ---------------------------------- TEAM ---------------------------------- */
+/* ---------------------------------- BRAND --------------------------------- */
+.brand {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/brand-bg.png);
+    background-color: #81c848;
+    flex-wrap: nowrap;
+    overflow-x: hidden; 
+    padding: 70px;
+    box-sizing: border-box;
+    /* margin-bottom: 50px; */
+}
+.brand-item {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.brand-item:last-child {
+    margin-right: 0;
+}
+
+.brand-item img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+}
+/* ---------------------------------- BRAND --------------------------------- */
+/* ---------------------------------- FORM ---------------------------------- */
+.form{
+    margin: 70px;
+    padding: 70px;
+    box-shadow: 0px 0px 10px 0px rgb(192, 192, 192);
+    background-image: url(../images/brand-bg.png);
+}
+.form form > div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.form input{
+    width: 100%;
+    padding: 20px;
+    border: 1.5px solid #eff2f7;
+    font-size: 16px;
+}
+.form textarea{
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1.5px solid #eff2f7;
+    height: 150px;
+}
+.form button{
+    width: 100%;
+    padding: 20px;
+    background-color: #81c848;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-size: 16px;
+}
+.form button:hover{
+    background-color: #579624;
+    transition: 0.2s ease-in-out;
+}
+/* ---------------------------------- FORM ---------------------------------- */
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 1080px){
+    .team{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width: 768px){
+    .team{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .form form > div{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 575px){
+    .team{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .form{
+        margin: 5px;
+        padding: 20px;
+    }
+    .brand-item {
+        width: 30%;
+        margin: 0px 50px;
+    }
+}
+/* ------------------------------- RESPONSIVE ------------------------------- */
