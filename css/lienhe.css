@@ -1,0 +1,71 @@
+
+.contact-area {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    position: relative;
+    z-index: 99;
+}
+.contact-bg{
+    background-image:url(https://shtheme.org/demosd/fudee/wp-content/uploads/2020/05/counter-bg.png);
+    background-color: #F4F7FC;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 100px 70px 100px;
+    box-shadow: 0px 20px 40px 0px rgba(161, 161, 161, 0.4);
+    margin-bottom: -98px;
+    width: 1170px;
+    height: 753.8px;
+}
+
+.contact-content h3 {
+    margin-bottom: 35px;
+    color: #363636; 
+    font-family: "Signika",sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 36px;
+}
+.form-ten-sdt{
+    width: 970px;
+    justify-content: space-between;
+    display: flex;
+}
+.wpcf7-form-control {
+    width: 100%; 
+    margin-bottom: 38px; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+.contact-form input{
+    height: 60px;
+}
+.width{
+    width: 470px;
+}
+.wpcf7-submit {
+    background-color: #7DC642; /* Màu nền cho nút gửi */
+    color: white; /* Màu chữ cho nút */
+    border: none;
+    font-family: "Signika",sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px; /* Kích thước chữ */
+    width: 204px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+    color:#333;
+}
+.wpcf7-submit:hover {
+    background-color: darkgreen; /* Màu khi hover */
+}
+iframe{
+    width: 100%;
+    z-index: 7;
+}
