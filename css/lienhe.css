@@ -20,11 +20,6 @@
 
 .contact-content h3 {
     margin-bottom: 35px;
-    color: #363636; 
-    font-family: "Signika",sans-serif;
-    font-weight: 600;
-    line-height: 30px;
-    font-size: 36px;
 }
 .form-ten-sdt{
     width: 970px;
@@ -66,6 +61,84 @@
     background-color: darkgreen; /* Màu khi hover */
 }
 iframe{
+    margin-bottom: -4px;
     width: 100%;
     z-index: 7;
+}
+.contact-address{
+    height: 700.19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-address-container{
+    width: 1170px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.contact-address-wrapper ul{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.contact-address-wrapper ul, .contact-address-wrapper a{
+    font-family: "Open Sans",sans-serif;
+    line-height: 28px;
+    color:#333;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact-address-wrapper{
+    border: 2px solid #e9e9e9;
+    width: 370px;
+    height: 400px;
+    transition: 0.3s;
+}
+
+
+
+.contact-address-wrapper.trusohanoi {
+    height: 450px; 
+    padding-top:30px;
+    
+}
+.contact-address-content{
+    padding:50px 40px 5px 40px;
+}
+.contact-address-wrapper li{
+    margin-bottom: 45px;
+    position: relative;
+}
+.contact-address-content li::before{
+    position:absolute;
+    content: "";
+    background: #e9e9e9;
+    width: 40px;
+    height: 2px;
+    left:0px;
+    bottom: -24px;
+}
+ .contact-address-content li:last-child::before {
+    display: none; 
+}
+.contact-address-wrapper h3{
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.fs36{
+    font-family: "Signika",sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 36px;
+    color:#363636;
+}
+.contact-address-wrapper:hover{
+    border: 2px #7DC642 solid;
+}
+.contact-address-wrapper a:hover{
+    color:#7DC642;
 }
