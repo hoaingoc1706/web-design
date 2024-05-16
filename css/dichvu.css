@@ -1,0 +1,88 @@
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.dichvu{
+    /* background-image: url('images/bgdichvu.png'); code sai cho nao ma ko*/
+    padding: 15px 9%; 
+    padding-bottom: 100px;
+    /* căn cho các hộp vào form đẹp hơn */
+}
+
+/* chỉnh phần chữ header cho trang */
+.dichvu h1, h3{
+    text-align: center;
+    padding-bottom: 15px;
+    top: 20%;
+}
+
+.dichvu h1{
+    font-size: 40px;
+    color: #0a0a0a;
+    font-weight: 25;
+}
+
+.dichvu h3{
+font-size: 30px;
+color: #44a11f;
+font-weight: 90;
+/* size, màu và độ dày */
+}
+
+
+.dichvu .box-dichvu{
+    display: grid;
+    /* cho vào form chuẩn, tự động vừa vặn, có khoảng cách 15px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 35px; 
+    /* khoảng cách giữa các hộp */
+}
+
+
+
+/* Hiệu ứng khi di chuột qua phần nội dung của hộp */
+.box:hover{
+    background-color: #656865; /* Màu xanh khi di chuột qua */
+}
+
+
+.dichvu .box-dichvu .box {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(20, 110, 20);
+    padding: 30px 20px;
+}
+
+.dichvu .box-dichvu .box img{ 
+    height: 80px;
+} 
+.dichvu .box-dichvu .box h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.dichvu .box-dichvu .box p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.dichvu .box-dichvu .box:hover{
+    box-shadow: 0 18px 15px rgba(0,0,0,0.3);
+    transform: scale(1.03);
+}
+@media (max-width: 768px){
+    .dichvu{
+        padding: 20px;
+    }
+}

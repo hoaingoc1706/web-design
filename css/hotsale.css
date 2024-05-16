@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.hotsale{
+	width: 100%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.ctsale{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 20%;
+	left: 80px;
+  }
+  
+
+.ctsale h1{
+	color: #396;
+	text-align: left;
+	font-weight: 100;
+	font-size: 60px;
+	margin: 40px 0px 20px;
+  }
+
+  .ctsale h3{
+	color: rgb(8, 8, 8);
+	text-align: left;
+	font-weight: 100;
+	font-size: 30px;
+  }
+
+  .ctsale p{
+	color: rgb(12, 12, 12);
+	text-align: left;
+	font-size: 28px;
+  }
+
+
+
+
+
+  #donghodn{
+	  font-family: sans-serif;
+	  color: #0c6104;
+	  display: inline-block;
+	  font-weight: 100;
+	  text-align: center;
+	  font-size: 30px;
+  }
+  
+  #donghodn > div{
+	  padding: 30px;
+	  border-radius: 3px;
+	  background: #fff;
+	  border-bottom: 4px solid #0c6104;
+	  border-right: 4px solid #0c6104;
+	  display: inline-block;
+  }
+  
+  #donghodn div > span{
+	  padding: 15px;
+	  border-radius: 3px;
+	  background: #fff;
+	  display: inline-block;
+  }
+  
+  .smalltext{
+	  padding-top: 5px;
+	  font-size: 16px;
+  }
+
+  .camsale{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 20%;
+	right: 10%;
+  }
+
+  .muangay{
+	display: inline-block;
+    padding: 10px 20px;
+    background-color: #17b81f; /* Màu nền của nút */
+    color: #fff; /* Màu văn bản của nút */
+    border: none;
+    border-radius: 9px; /* Để tạo góc bo tròn */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    position: absolute;
+
+  }

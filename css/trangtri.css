@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tt{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    /* z-index: 2; */
+}
+
+.anhtt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+}
+
+.contt {
+    position: absolute;
+     top: 50%;
+    right: 5%; 
+    transform: translateY(-75%); 
+    text-align: center;
+    color: #fff; 
+    width: 80%;
+    line-height: 70px;
+
+    width: 50%; /* Lớp contt chiếm 50% chiều rộng của trang */
+    margin-left: auto; /* Đẩy lớp contt sang phải */
+    margin-right: 15px; /* Tạo khoảng cách ở mép phải */
+    padding: 10px; /* khoảng cách giữa nội dung và viền của lớp contt */
+    box-sizing: border-box; /* Đảm bảo padding được tính vào kích thước tổng thể của lớp */
+    background-color: none; /* Màu nền của lớp contt */
+
+}
+
+.contt h1{
+    font-size: 70px;
+    font-weight: 50px;
+}
+
+
+.contt h3{
+    font-size: 50;
+    line-height: 80px;  
+}
+
+.contt p{
+    font-size: 45;
+}
+
+.btntt{
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #7dc642; /* Màu nền của nút */
+    color: #fff; /* Màu văn bản của nút */
+    border: none;
+    border-radius: 20px; /* Để tạo góc bo tròn */
+    text-decoration: none; /* Loại bỏ gạch chân */
+   
+    position: absolute;
+    bottom: 20%; /* Khoảng cách từ bottom */
+    right: 20%; 
+}
+
+#trung .image-above {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Đảm bảo ảnh đầy đủ chiều rộng */
+    z-index: 1; /* Đảm bảo ảnh hiển thị trên phần dưới */
+}
+
+
+
+#trung {
+position: absolute;
+top: -40%; /* Khoảng cách từ bottom */
+right: 10%; 
+}
+
+#rau{
+    position: absolute;
+    bottom: -25%; /* Khoảng cách từ bottom */
+    right: 10%; 
+}
