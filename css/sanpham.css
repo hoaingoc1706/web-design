@@ -82,28 +82,22 @@
     margin:0px;
     margin-top:30px;
 }
-.rauanqua h3{
+.rauanqua h3 {
     font-family: "Signika", sans-serif;
     font-size: 30px;
     text-align: center;
-    
+   
 }
-.rau-list a,.rauanqua h3 a{
-    text-decoration: none;
-    color:#408e00;
-    transition: 0.3s;
+.rauanqua h3 a{
+    color:var(--productname--color)
 }
-.rau-list a:hover{
-    color: #2c5c01;
+.rauanqua h3 a:hover{
+    color: #224503;
 }
-.rau-list a{
-    font-family: "Roboto",sans-serif;
-    font-size:17px;
-    font-weight:bold;
-}
+
 .rau-list p{
     margin-top: 20px;
-    text-align: center;
+   
 }
 .bookmark {
     position: relative;

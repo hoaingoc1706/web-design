@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dưa leo Tini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css"> 
+    <link rel="stylesheet" href="css/dualeotini.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bookmark&brand.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="icon" href="images/logo.png" type = "image/x-icon">
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header">
+        <div class="top-bar">
+            <div class="contact-info">
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="14" width="10.5" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                        Hà Nội - Việt Nam
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                        <a href="mailto:morrrifarm@gmail.com" class="contact">morrrifarm@gmail.com</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                        <a href="tel:0927543137" class="contact">0927543137</a>
+                    </li>
+                    <li class="search">
+                        <input placeholder="Tìm kiếm sản phẩm ..." type="search">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="main-header">
+            <div id="container">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <ul id="main-menu">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="dichvu.html">Dịch Vụ</a></li>
+                        <li><a href="sanpham.html">Sản Phẩm</a>
+                            <ul class="sp-menu">
+                                <li><a href="rauanqua.html">Rau ăn quả</a></li>
+                                <li><a href="rauancu.html">Rau ăn củ</a></li>
+                                <li><a href="rauanla.html">Rau ăn lá</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tintuc.html">Tin Tức</a></li>
+                        <li><a href="doingu.html">Đội Ngũ</a></li>
+                        <li><a href="lienhe.html">Liên Hệ</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <!-- CHI TIẾT DƯA LEO TINI -->
+    <!-- POP UP -->
+    <div class="modal fade" id="popupdualeo" tabindex="-1"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h4>Dưa leo tini</h4>
+                    <span data-bs-target="#popupdualeo" data-bs-dismiss="modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#a0a1a2" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+                    </span> 
+                </div>
+                <div class="modal-body d-flex ">
+                    <div class="product-500g mr-20">
+                        <div class="img">
+                            <img src="images/dualeotini.jpg" alt="">
+                            <p>500g</p>
+                        </div>
+                        <div class="price d-flex ">
+                            <p class="price-first"data-price="17500">17.500đ</p><p class="small price-last">/500g</p>
+                        </div>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary" type="button">-</button>
+                            <input type="text" class="form-control" value="0">
+                            <button class="btn btn-outline-secondary" type="button">+</button>
+                          </div>
+                    </div>
+                    <div class="product-1kg mr-20">
+                        <div class="img">
+                            <img src="images/dualeotini.jpg" alt="">
+                            <p>1kg</p>
+                        </div>
+                        <div class="price d-flex ">
+                            <p class="price-first"data-price="35000">35.000đ</p><p class="small price-last">/1kg</p>
+                        </div>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary" type="button">-</button>
+                            <input type="text" class="form-control" value="0">
+                            <button class="btn btn-outline-secondary" type="button">+</button>
+                          </div>
+                    </div>
+                    <div class="product-2kg mr-20">
+                        <div class="img">
+                            <img src="images/dualeotini.jpg" alt="">
+                            <p>2kg</p>
+                        </div>
+                        <div class="price d-flex ">     
+                            <p class="price-first " data-price="50000">50.000đ</p><p class="small price-last">/2kg</p>
+                        </div>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary" type="button">-</button>
+                            <input type="text" class="form-control" value="0">
+                            <button class="btn btn-outline-secondary" type="button">+</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn">
+                        Hoàn tất
+                        <div class="total-price d-flex justify-content-center">
+                            <p>0</p>
+                            <p>đ</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bread-crumbs">
+        <p>
+            <a href="sanpham.html">SẢN PHẨM /</a>
+            <a href="rauanqua.html">RAU ĂN QUẢ /</a>
+            <span>DƯA LEO TINI</span>
+        </p>
+    </div>
+    <!-- SLIDE DƯA LEO -->
+    <div class="container mt-4">
+        <div class="row g-2">
+            <div class="col-md-4">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/dualeotini.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/dualeotini2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/dualeotini3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="carousel-thumbnails mt-3">
+                    <img src="images/dualeotini.jpg" class="img-thumbnail" data-bs-target="#carouselExample" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                    <img src="images/dualeotini2.jpg" class="img-thumbnail" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img src="images/dualeotini3.jpg" class="img-thumbnail" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3">
+                </div>
+            </div>
+            <div class="col-md-8 ">
+                <div class="product-title">
+                    <div class=" d-flex  justify-content-between ">
+                        <h2 class="">Dưa leo Tini</h2>
+                        <button id="add-to-cart-btn" class="btn " type="button" data-bs-toggle="modal" data-bs-target="#popupdualeo">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="22.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                        MUA
+                        </button>
+
+                    </div>
+                    <div class=" d-flex  justify-content-between "> 
+                        <div class="h4 fw-bold " style="margin-top: 20px;font-family: Arial, Helvetica, sans-serif;color:#C50017">
+                            35.000đ
+                            <span style="font-size: 0.6em;color:#9DA7BC">
+                            / 1kg
+                            </span>
+                            <p class="share" >
+                                <svg xmlns="http://www.w3.org/2000/svg" height="12" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ced2da" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                                Chia sẻ
+                            </p>
+                        </div>
+                        <div class="special-offer">
+                            <h4><img src="images/lua.png" width="20px">ƯU ĐÃI ĐẶC BIỆT</h2>
+                            <p>Mua 1.001 kg giảm 28.57%</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <p class="product-description">
+                    Dưa leo Tini là loại dưa leo nhỏ, hình dáng thon dài bầu dục, vỏ mỏng, màu xanh lá sáng, không có gai như loại dưa leo khác. Dưa leo Tini có vị ngọt nhẹ, giòn và có thể ăn được cả vỏ và được sử dụng trong các món salad hoặc được sử dụng làm trang trí cho món ăn, nước ép hoặc sinh tố.                </p>
+                <p>Thành phần dinh dưỡng cho 100g dưa leo Tini:</p>
+                <ul>
+                    <li>Năng lượng: 15 kcal</li>
+                    <li>Carbohydrate: 3.6 g</li>
+                    <li>Protein: 1.6 g</li>
+                    <li>Chất béo: 0.2 g</li>
+                    <li>Chất xơ: 0.7 g</li>
+                    <li>Vitamin C: 28.1 mg</li>
+                    <li>Kali: 352 mg</li>
+                    <li>Folate: 27 mcg</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-tabs mt-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">QUY TRÌNH SẢN XUẤT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">ỨNG DỤNG CHẾ BIẾN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BẢO QUẢN</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content section-content mt-2" id="myTabContent">
+            <div class="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>Tất cả bắt đầu từ việc chuẩn bị đất cho việc gieo hạt dưa leo Tini. Sau khi gieo hạt, cây cần được chăm sóc đều đặn, bao gồm tưới nước, loại bỏ cỏ dại và bón phân. Khi cây phát triển, cần tạo giàn leo để hỗ trợ và tạo điều kiện cho cây phát triển tốt. Quá trình thu hoạch diễn ra khi quả đạt kích thước và chất lượng mong muốn. Sau thu hoạch, dưa leo được xử lý bằng cách rửa sạch và đóng gói. Cuối cùng, sản phẩm có thể được phân phối đến thị trường hoặc tiêu thụ trực tiếp.</p>
+            </div>
+            <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>Dưa leo Tini có thể được chế biến thành nhiều món ăn ngon và bổ dưỡng. Dưới đây là một số ứng dụng phổ biến:</p>
+                    <ul>
+                        <li><strong>Salad dưa leo:</strong> Dưa leo Tini có thể được cắt thành lát hoặc miếng và sử dụng trong các loại salad, kết hợp với các loại rau cải khác và sốt gia vị.</li>
+                        <li><strong>Dưa leo muối:</strong> Dưa leo Tini có thể được ướp muối hoặc đặt trong nước giấm để tạo ra một loại món ăn giòn ngon và hấp dẫn.</li>
+                        <li><strong>Dưa leo xào:</strong> Dưa leo có thể được xào chung với các loại rau khác hoặc thêm vào các món xào như thịt bò, tôm, hoặc đậu hủ để tạo ra một món ăn đầy dinh dưỡng.</li>
+                        <li><strong>Dưa leo đồ chua:</strong> Dưa leo có thể được ướp chua để tạo ra một món ăn giòn ngon, dùng kèm với cơm hoặc mì.</li>
+                        <li><strong>Dưa leo nấu canh:</strong> Dưa leo có thể được thêm vào các loại canh như canh chua, canh cua để tạo thêm hương vị và chất dinh dưỡng.</li>
+                        <li><strong>Dưa leo ướp giấm:</strong> Dưa leo có thể được ướp trong giấm cùng với gia vị và đường để tạo ra một loại món ngon, thích hợp làm món tráng miệng hoặc món khai vị.</li>
+                        <li><strong>Dưa leo xà lách:</strong> Dưa leo có thể được xào nhanh và sử dụng làm thành phần trong các món xà lách hoặc gỏi.</li>
+                    </ul>
+                    
+                    <div class="container mt-5">
+                        <h2>Món ăn nấu cùng dưa leo</h2>
+                        <div class="food-container">
+                            <button class="scroll-btn left" onclick="customscrollLeft()">&#10094;</button>
+                            <div class="food-scroll">
+                                <div class="food-item"><img src="images/saladdualeo.jpg" ><p>Salad Dưa leo</p></div>
+                                <div class="food-item"><img src="images/dualeobat.jpg" ><p>Dưa leo xà lách</p></div>
+                                <div class="food-item"><img src="images/dualeone.jpg" ><p>Dưa leo ướp dấm</p></div>
+                                <div class="food-item"><img src="images/dualeosalad.jpg" ><p>Dưa leo nấu canh</p></div>
+                                <div class="food-item"><img src="images/dualeomuoi.jpg"><p>Dưa leo muối</p></div>
+                                <div class="food-item"><img src="images/saladdl.jpg" ><p>Dưa leo đồ chua</p></div>
+                                <div class="food-item"><img src="images/banhmi.jpg" ><p>Dưa leo xào</p></div>
+                                <div class="food-item"><img src="images/dualeoday.jpg" ><p>Dưa leo cuộn thịt</p></div>
+                                <div class="food-item"><img src="images/dualeoxao.jpg" ><p>Dưa leo tẩm ướp đậm đà</p></div>
+                            </div>
+                            <button class="scroll-btn right" onclick="customscrollRight()">&#10095;</button>
+                        </div>
+                    </div>
+                    
+            </div>
+            
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>Để bảo quản dưa leo Tini một cách hiệu quả và kéo dài thời gian sử dụng, bạn có thể thực hiện các bước sau:</p>
+                <ul>
+                    <li><strong>Bảo quản trong tủ lạnh:</strong> Dưa leo Tini có thể được bảo quản trong tủ lạnh để giữ cho chúng tươi lâu hơn. Đặt dưa leo vào túi chống ẩm hoặc hộp đựng thực phẩm và đặt trong ngăn tủ lạnh phù hợp.</li>
+                    <li><strong>Không giặt trước khi bảo quản:</strong> Tránh việc giặt dưa leo trước khi bảo quản, vì nước có thể làm tăng độ ẩm và gây hỏng nhanh chóng.</li>
+                    <li><strong>Bảo quản trong môi trường khô ráo:</strong> Nếu không bảo quản trong tủ lạnh, hãy đảm bảo dưa leo được để ở môi trường khô ráo, thoáng mát và tránh ánh nắng trực tiếp.</li>
+                    <li><strong>Kiểm tra thường xuyên:</strong> Hãy kiểm tra dưa leo đều đặn để phát hiện bất kỳ dấu hiệu nào của hỏng hoặc sự suy giảm chất lượng. Loại bỏ bất kỳ phần nào đã hỏng ngay lập tức để tránh lan sang các phần khác.</li>
+                    <li><strong>Sử dụng nhanh chóng:</strong> Dưa leo Tini nên được sử dụng trong thời gian ngắn sau khi mua để đảm bảo vị ngon nhất và tránh sự suy giảm chất lượng.</li>
+                </ul>
+                <p>Bằng cách thực hiện các biện pháp bảo quản này, bạn có thể giữ cho dưa leo Tini tươi ngon và sử dụng được trong thời gian dài.</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="similar-products ">
+            <h2 class="text-center">Sản phẩm tương tự</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <a href=""> 
+                        <img src="images/bingoi2mau.jpg" alt="">
+                        <p class="product-name">Bí ngòi hai màu</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href=""> 
+                        <img src="images/cachuacherrytron.jpg" alt="">
+                        <p class="product-name">Cà chua cherry tròn</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href=""> 
+                        <img src="images/bingoixanh.jpg" alt="">
+                        <p class="product-name">Bí ngòi xanh</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href=""> 
+                        <img src="images/bingoivang.jpg" alt="">
+                        <p class="product-name">Bí ngòi vàng</p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/dualeotini.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <img src="images/logo.png" width="130px" height="100px" alt="logo">
+                <h2>Công Ty TNHH Morri Farm</h3>
+                <p>Trụ sở: 12 Chùa Bộc, Đống Đa, Hà Nội</p>
+                <p>Trang trại: Thôn 1, Xã Đạ Ròn, Đơn Đương, Lâm Đồng, Việt Nam</p>
+                <a href="mailto:morrrifarm@gmail.com" class="contact"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                morrrifarm@gmail.com</a><br>
+                <a href="tel:0927543137"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                0927543137</a>
+            </div>
+            <div class="footer-gioithieu">
+                <h3>Giới Thiệu</h3>
+                <ul>
+                    <li><a href="">>> &nbsp; Giới thiệu</a></li>
+                    <li><a href="">>> &nbsp; Tin tức</a></li>
+                    <li><a href="">>> &nbsp; Đội ngũ</a></li>
+                    <li><a href="">>> &nbsp; Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-sanpham">
+                <h3>Sản Phẩm</h3>
+                <ul>
+                    <li><a href="">>> &nbsp; Rau ăn quả</a></li>
+                    <li><a href="">>> &nbsp; Rau ăn lá</a></li>
+                    <li><a href="">>> &nbsp; Rau ăn củ</a></li>
+                </ul>
+            </div>
+            <div class="footer-phanphoi">
+                <h3>Hệ Thống Phân Phối</h3>
+                <ul>
+                    <li>>> &nbsp;AEON MALL</li>
+                    <li>>> &nbsp;EMART</li>
+                    <li>>> &nbsp;GO!</li>
+                    <li>>> &nbsp;LOTTE MART</li>
+                    <li>>> &nbsp;WINMART</li>
+                    <li>>> &nbsp;KING FOOD</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Bản quyền <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg>&nbsp;2024 Morri-Farm - Lập trình và thiết kế bởi Nhóm 2</p>
+        </div>
+    </footer>
+</body>
+</html>

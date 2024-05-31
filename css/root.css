@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,87.5;1,87.5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-optical-sizing: auto;
-    font-family: "Signika", sans-serif;
-    font-variation-settings: "GRAD" 0;
+:root{
+    --productname--color:#408e00;
+    --productname--color-hover:#214503;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-name{
+    color:var(--productname--color);
+    font-family: "Roboto",sans-serif;
+    font-size:17px;
+    font-weight:bold;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.product-name:hover{
+    color:var(--productname--color-hover)
+}

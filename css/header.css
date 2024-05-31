@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,87.5;1,87.5&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
-*{
-    margin:0 ;
-    padding:0 ;
-    box-sizing: border-box;
+
+ol,ul,dl {
+    padding-left: 0;
+    margin: 0;
+}
+
+#header h2, p{
+    margin: 0 !important; 
+}
+li{
+    
 }
 .top-bar {
     background-color: #7dc642;
@@ -13,15 +18,18 @@
     margin:0;
     
   }
-.contact-info{
+ .contact-info{
     margin-left:160px;
     font-family: "Open Sans", sans-serif;
   }
-.contact-info li svg{
+  .contact-info ul {
+    margin-bottom: 0;
+  }
+ .contact-info li svg{
     vertical-align: middle;
     margin-right: 5px;
 }
-.contact-info ul {
+ .contact-info ul {
     list-style-type: none;
     
   }
@@ -31,12 +39,12 @@
     line-height: 42px;
     margin-right: 50px; 
 }
-.contact{
+ .contact{
     text-decoration: none;
     color:white;
     transition: 0.3s;
 }
-.contact:hover{
+ .contact:hover{
     color:rgb(249, 104, 0);
 }
 #main-header{ 
@@ -44,8 +52,9 @@
     display: flex;
     justify-content: center;   
     height: 92px;
+    margin:0;
 }
-.container{
+#container{
     display: flex;
     align-items: center;
     /* padding:6px 0px; */
@@ -64,11 +73,12 @@
     font-family: "Open Sans", sans-serif;
     border-radius: 10px;
     border:none;
+    font-size: inherit;
 }
 .search a{
     margin-left: 10px;
 }
-.container img{
+#container img{
     width: 90px;
     height: 75px;
     
