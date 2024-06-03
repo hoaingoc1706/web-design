@@ -71,11 +71,11 @@ btnSubmit.addEventListener("mouseup", (e) => {
 
     // Thêm nội dung vào popup
     popup.innerHTML = `
-          <h2>Gửi thành công</h2>
-          <p>Chúng tôi sẽ liên hệ với bạn sớm!</p>
-          <button id="close-popup">Đóng</button>
-        `;
-
+    <div class="icon">&#10003;</div>
+    <h2>Thank You!</h2>
+    <p>Your details have been successfully submitted. Thanks!</p>
+    <button id="close-popup">OK</button>
+  `;
     // Thêm popup vào trang
     document.body.appendChild(popup);
     document.getElementById("overlay").style.display = "block";
