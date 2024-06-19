@@ -1,4 +1,6 @@
-
+a{
+    color:white;
+}
 ol,ul,dl {
     padding-left: 0;
     margin: 0;
@@ -63,7 +65,7 @@ li{
 
 }
 .search{
-    margin-left:300px;
+    margin-left:200px;
 }
 .search input{
     padding-left:7px;
