@@ -1,11 +1,9 @@
 h1,
-h3,
-a {
+h3 span {
   font-family: "Signika", sans-serif;
 }
 body,
 p,
-li,
 div {
   font-family: "Open Sans", sans-serif;
 }
