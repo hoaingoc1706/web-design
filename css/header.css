@@ -9,44 +9,36 @@ ol,ul,dl {
 #header h2, p{
     margin: 0 !important; 
 }
-li{
-    
-}
+
 .top-bar {
     background-color: #7dc642;
     color: white;
     padding: 0 15px;
     font-size: 15px;
     margin:0;
-    
   }
- .contact-info{
-    margin-left:160px;
+.contact-info{
+    margin-left: 100px;
     font-family: "Open Sans", sans-serif;
   }
-  .contact-info ul {
-    margin-bottom: 0;
-  }
- .contact-info li svg{
+.contact-info li svg{
     vertical-align: middle;
-    margin-right: 5px;
 }
- .contact-info ul {
+ul {
     list-style-type: none;
-    
   }
 .contact-info li{
     font-weight: 600;
-    display:inline-block;
+    display: inline-block;
     line-height: 42px;
     margin-right: 50px; 
 }
- .contact{
+.contact{
     text-decoration: none;
     color:white;
     transition: 0.3s;
 }
- .contact:hover{
+.contact:hover{
     color:rgb(249, 104, 0);
 }
 #main-header{ 
@@ -54,18 +46,15 @@ li{
     display: flex;
     justify-content: center;   
     height: 92px;
-    margin:0;
 }
-#container{
+.main-header-container{
     display: flex;
     align-items: center;
-    /* padding:6px 0px; */
     justify-content: space-between;
     width: 1200px;
-
 }
 .search{
-    margin-left:200px;
+    margin-left:150px;
 }
 .search input{
     padding-left:7px;
@@ -75,18 +64,15 @@ li{
     font-family: "Open Sans", sans-serif;
     border-radius: 10px;
     border:none;
-    font-size: inherit;
 }
 .search a{
     margin-left: 10px;
 }
-#container img{
+.main-header-container img{
     width: 90px;
-    height: 75px;
-    
+    height: 75px;  
 }
 #main-menu {
-
     list-style-type: none; 
     display:flex;
     font-family: "Signika",sans-serif;
@@ -104,18 +90,15 @@ li{
     opacity: 100;
     margin-top:0px;
 }
-
-
 #main-menu a{
-    color:white;
+    color: white;
     text-decoration: none;
-    transition: 0.3s;
-    
+    transition: 0.3s; 
 }
 .sp-menu {
     margin-top:20px;
     position: absolute;
-    background:#151f2d ;
+    background:#151f2d;
     padding:0px;
     list-style-type: none;
     width: 130px;
@@ -126,13 +109,11 @@ li{
     line-height: 30px; 
     transition: 0.4s;
 }
-
 .sp-menu li{
     padding:8px 15px;
     border-bottom:1px solid #565454  ;
     transition: 0.5s;
 }
-
 #main-menu li:hover >a{
     color:#7dc642;
 }
@@ -144,4 +125,99 @@ li{
     position: sticky;
     top: 0;
     z-index: 999;
+}
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* mobile nav */
+.navbar-button{
+    width: 28px;
+    height: 28px;
+    display: none;
+}
+.nav__overlay {
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+.nav__input{
+    display: none;
+}
+.nav__input:checked ~ .nav__overlay {
+    display: block;
+}
+.nav__input:checked ~ #main-menu__mobile {
+    transform: translate(0%) ;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#main-menu__mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translate(100%) ;
+    transition: transform linear 0.2s;
+}
+.nav-mobile {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-left: 1.4rem;
+    padding: 14px 0;
+    font-weight: bold;
+    /* font-size: 1.4 rem; */
+}
+#main-menu__mobile li {
+    position: relative;
+}
+#main-menu__mobile li:not(:last-child)::after {
+    content: "";
+    display: block;
+    margin-left: 1.4rem;
+    width: 80%;
+    height: 1px;
+    background-color:  #7dc642; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-close__mobile {
+   position: absolute;
+   margin-top: 1.4rem;
+   margin-left: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+    .main-header-container {
+        margin: auto 5%;
+    }
+    .navbar-button {
+        display: block;
+    }
+    #main-menu {
+        display: none;
+    }
+    #place, #account, #cart, #emailcontact, #phonenumber {
+        display: none;
+    }
+    .search{
+        margin-left: 25%;
+    }
 }
