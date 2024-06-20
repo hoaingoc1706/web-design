@@ -17,7 +17,7 @@ li {
     /* Chiều cao toàn màn hình */
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../img/dichvu-bg.jpg);
+        url(../images/dichvu-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
