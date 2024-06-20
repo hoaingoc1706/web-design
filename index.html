@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/logo.png" type = "image/x-icon"> <!--FAVICON-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MORRI FARM - TRANG CHỦ</title>
+</head>
+<body>   
+<header>        
+  <div id="header">
+    <div class="top-bar">
+        <div class="contact-info">
+            <ul>
+                <li id="place">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14" width="10.5" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    Hà Nội - Việt Nam
+                </li>
+                <li id="emailcontact">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    <a href="mailto:morrifarm@gmail.com" class="contact">morrifarm@gmail.com</a>
+                </li>
+                <li id="phonenumber">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                    <a href="tel:0927543137" class="contact">0927543137</a>
+                </li>
+                <li class="search">
+                    <input placeholder="Tìm kiếm sản phẩm ..." type="search">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                </a>
+                </li>
+                <li id="account">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                    <a href="dangnhap.html">Tài khoản</a>
+                </li>
+                <li id="cart"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                <a href="giohang.html">Giỏ hàng</a>
+                </li>
+            </ul>
+        </div>       
+    </div>
+    <div id="main-header">
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <ul id="main-menu">
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="dichvu.html">Dịch Vụ</a></li>
+                    <li><a href="sanpham.html">Sản Phẩm</a>
+                        <ul class="sp-menu">
+                            <li><a href="">Rau ăn quả</a></li>
+                            <li><a href="">Rau ăn củ</a></li>
+                            <li><a href="">Rau ăn lá</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tintuc.html">Tin Tức</a></li>
+                    <li><a href="doingu.html">Đội Ngũ</a></li>
+                    <li><a href="lienhe.html">Liên Hệ</a></li>
+                </ul>
+
+                <label for="nav-mobile-input" class="navbar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                <input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+                <ul id="main-menu__mobile">
+                    <label for="nav-mobile-input" class="nav-close__mobile">                       
+                        <svg xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#7dc642" d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+                    </label><br> <br> <br>
+                    <li><a href="index.html" class="nav-mobile">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html" class="nav-mobile">GIỚI THIỆU</a></li>
+                    <li><a href="dichvu.html" class="nav-mobile">DỊCH VỤ</a></li>
+                    <li><a href="sanpham.html" class="nav-mobile">SẢN PHẨM</a></li>
+                    <li><a href="tintuc.html" class="nav-mobile">TIN TỨC</a></li>
+                    <li><a href="doingu.html" class="nav-mobile">ĐỘI NGŨ</a></li>
+                    <li><a href="lienhe.html" class="nav-mobile">LIÊN HỆ</a></li>
+                    <li><a href="danhnhap.html" class="nav-mobile">ĐĂNG NHẬP</a></li>
+                    <li><a href="giohang.html" class="nav-mobile">GIỎ HÀNG CỦA BẠN</a></li>
+                </ul>  
+        </div>
+    </div> 
+  </div>
+</header> 
+	<main>							       
+<!--SLIDER-->
+<section>
+    <div class="slider">
+        <div class="sliderImg">
+            <div class="banner">
+                <img src ="images/banner1.png">
+                <div class="overlay">
+                    <div class="content">
+                        <h4>MORRI FARM</h4><br><br>
+                        <h1>Vườn Xanh &#38; Nông Trại Hữu Cơ</h1>
+                    </div>
+                    <div class="btnslider">
+                        <a href="lienhe.html" class="btn">LIÊN HỆ <span class="plus">+</span></a>
+                        <a href="gioithieu.html" class="btn">GIỚI THIỆU <span class="plus">+</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src ="images/banner2.png">
+                <div class="overlay">
+                    <div class="content">
+                        <h4>MORRI FARM</h4><br><br>
+                        <h1>Vườn Xanh &#38; Nông Trại Hữu Cơ</h1>
+                    </div>
+                    <div class="btnslider">
+                        <a href="lienhe.html" class="btn">LIÊN HỆ <span class="plus">+</span></a>
+                        <a href="gioithieu.html" class="btn">GIỚI THIỆU <span class="plus">+</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src ="images/banner3.png">
+                <div class="overlay">
+                    <div class="content">
+                        <h4>MORRI FARM</h4><br><br>
+                        <h1>Vườn Xanh &#38; Nông Trại Hữu Cơ</h1>
+                    </div>
+                    <div class="btnslider">
+                        <a href="lienhe.html" class="btn">LIÊN HỆ <span class="plus">+</span></a>
+                        <a href="gioithieu.html" class="btn">GIỚI THIỆU <span class="plus">+</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nutbam">
+            <button id="nuttrai">&#8592;</button>
+            <button id="nutphai">&#8594;</button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</section>
+
+<!--GIỚI THIỆU -->
+<section>
+    <div class="introduce"> 
+        <div class="introduce-container">
+            <div class="intro-content"> 
+                <h3>Giới Thiệu</h3>
+                <h1>Khám phá nông trại hữu cơ</h1>
+                <p>Tại nông trại, từng khu vực được thiết kế kỹ lưỡng để tối ưu hóa sự sáng tạo và sự phát triển của cây cỏ, rau mầm, và trái cây. 
+                Chúng tôi chú trọng vào việc duy trì sự cân bằng tự nhiên và tái tạo đất đai để bảo vệ môi trường. 
+                Các hệ thống tưới tiêu hiệu quả và các kỹ thuật canh tác thông minh được áp dụng để đảm bảo sự hài hòa giữa con người và thiên nhiên.</p>
+                <br> 
+                <a href="gioithieu.html" class="btn btngt">XEM THÊM <span class="plus">+</span></a>
+            </div>
+            <div class="intro-container">
+                <div class="intro-items" id="left1">
+                    <img src="images/gioithieu1.png" class="center" width="100" height="100">
+                    <h3>Rau củ quả hữu cơ</h3>
+                    <p>Rau củ hữu cơ mang lại nhiều lợi ích cho sức khoẻ và môi trường</p> <br> <br> 
+                </div>
+                <div class="intro-items" id="right1">             
+                    <img src="images/gioithieu2.png" class="center" width="100" height="100">
+                    <h3>Làm vườn</h3>
+                    <p>Chúng tôi chăm sóc vườn hàng ngày, đảm bảo cây quả được tươi tốt nhất</p>  <br> <br>
+                </div>
+                <div class="intro-items" id="left2">  
+                    <img src="images/gioithieu3.png" class="center" width="100" height="100">
+                    <h3>Phân bón hữu cơ</h3>
+                    <p>Phân được bón theo chu kỳ và kế hoạch để cây có thể phát triển khoẻ mạnh</p> <br> <br>
+                </div>
+                <div class="intro-items" id="right2"> 
+                    <img src="images/gioithieu4.png" class="center" width="100" height="100">
+                    <h3>Thiết kế cảnh quan</h3>
+                    <p>Tham quan và học tập những cách thiết kế cảnh quan cho gia đình bạn</p> <br> <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- GIỚI THIỆU 2 -->
+<section>
+    <div class="intro">
+        <div class="intro-ct">
+            <h3>Trang trại rau củ quả</h3>
+            <h1>Trang trại cung cấp rau củ tươi 100%</h1> <br>
+            <p>Bạn có thể tham quan, trải nghiệm các hoạt động làm vườn hoặc ăn thử các loại trái cây tươi</p>
+            <br> <br>
+            <a href="lienhe.html" class="btn btntt">LIÊN HỆ <span class="plus">+</span></a>
+        </div>
+            <div id="trung">
+                <img src ="images/trung.png" width="200" height="200"></div>
+            <div id="rau">
+                <img src ="images/rau.png" width="250" height="230"></div>
+    </div>
+</section>
+
+<!-- DỊCH VỤ -->
+<section>
+    <div class="service">
+        <br><br><br>
+        <div class="header-service">
+            <h3>Dịch vụ</h3>
+            <h1>Dịch vụ Chúng tôi Cung cấp có Lợi cho Sức khoẻ</h1>
+            <br><br><br>
+        </div>
+        <div class ="box-service">
+            <div class="box">
+                <img src="images/dichvu1.png" width="70" height="70">
+                <h4>Thực phẩm hữu cơ</h4>
+                <div class="line" style="width: 20%; height: 3px; background-color: green; margin: 7% 40%; "></div>
+                <p>Thực phẩm hữu cơ không sử dụng hoá chất độc hại</p>
+                <a href ="#" class = "btn-service">&rarr;</a>
+            </div>
+            <div class="box">
+                <img src="images/dichvu3.png" width="70" height="70">
+                <h4>Làm vườn</h4>
+                <div class="line" style="width: 20%; height: 3px; background-color: green; margin: 7% 40%; "></div>
+                <p>Chúng tôi chăm sóc vườn hằng ngày, đảm bảo cây quả luôn được tươi tốt</p>
+                <a href ="#" class = "btn-service">&rarr;</a>
+            </div>
+            <div class="box">
+                <img src="images/dichvu2.png" width="70" height="70">
+                <h4>Phân bón hữu cơ</h4>
+                <div class="line" style="width: 20%; height: 3px; background-color: green; margin: 7% 40%; "></div>
+                <p>Chúng tôi thường xuyên bón phân hữu cơ cho cây được phát triển tốt nhất</p>
+                <a href ="#" class = "btn-service">&rarr;</a>
+            </div>        
+            <div class="box">
+                <img src="images/dichvu4.png" width="70" height="70">
+                <h4>Thiết kế quang cảnh</h4>
+                <div class="line" style="width: 20%; height: 3px; background-color: green; margin: 7% 40%; "></div>
+                <p>Quý khách có thể thăm quan và chụp hình tại nông trại</p>
+                <a href ="#" class = "btn-service">&rarr;</a>
+            </div>    
+        </div>
+    </div>
+</section>
+<!-- VÒNG QUAY PHẦN TRĂM -->
+ <section>
+    <div class="circle-intro">
+        <div class="circle-container">
+            <div class="chart-container" data-percent="100" data-color="#7dc642">
+                <div class="chart" data-percent="100">
+                    <span class="percent">100%</span>
+                </div> <br>
+                <div class="description">
+                    <h2>Trái cây tươi</h2>
+                    <p>Cung cấp 100% trái cây tươi</p>
+                </div>
+            </div>
+
+            <div class="chart-container" data-percent="83" data-color="#e49b16">
+                <div class="chart" data-percent="83">
+                    <span class="percent">83%</span>
+                </div> <br>
+                <div class="description">
+                    <h2>Thực vật hữu cơ</h2>
+                    <p>Không sử dụng hoá chất</p>
+                </div>
+            </div>
+
+            <div class="chart-container" data-percent="97" data-color="#7dc642">
+                <div class="chart" data-percent="97">
+                    <span class="percent">97%</span>
+                </div> <br>
+                <div class="description">
+                    <h2>Khách hàng yêu thích</h2>
+                    <p>Hơn 97% khách hàng yêu thích</p>
+                </div>
+            </div>
+
+            <div class="chart-container" data-percent="79" data-color="#e49b16">
+                <div class="chart" data-percent="79">
+                    <span class="percent">79%</span>
+                </div> <br>
+                <div class="description">
+                    <h2>Nhập khẩu</h2>
+                    <p>Trái cây nhập khẩu giá tốt</p>
+                </div>
+            </div>        
+        </div>
+    </div>
+</section>
+<!-- HOT SALE -->
+<section>
+    <div class="hotsale">
+        <div class="hotsale-container">
+            <h3>MORRI SALE</h3>
+            <h1>Ưu đãi hoa quả</h1>
+            <h2>Mận tam hoa</h2>
+            <p>Sale từ 2kg <span style="color: #7dc642;">89k/kg</span></p><br>
+            <div id="clockdiv">
+                <div>
+                    <div class="smalltext">DAYS</div>
+                    <span class="days"></span> 
+                </div>
+                <div>
+                    <div class="smalltext">HOURS</div>
+                    <span class="hours"></span>
+                </div>
+                <div>
+                    <div class="smalltext">MIN</div>
+                    <span class="minutes"></span> 
+                </div>
+                <div>
+                    <div class="smalltext">SEC</div>
+                    <span class="seconds"></span>
+                </div>
+            </div> <br><br><br> 
+            <a href="lienhe.html" class="btn btnhs">MUA NGAY <span class="plus">+</span></a>
+        </div> 
+        <div class="spsale">
+            <img src="images/man.png" id="quaman" width="520px" height="511px">
+            <img src="images/vietgap.png" id="ccvietgap"  width="125px" height="120px">
+        </div> 
+    </div>
+</section>
+<!-- QUOTES, REVIEW TỪ KOL -->
+<section>
+    <div class="quotes"> 
+        <div class="quote-container swiper-container">   
+            <div class="quote-content swiper-wrapper">
+                    <!-- kol 1 -->
+                <div class="quote-slide swiper-slide">       
+                    <div class="kol-Image">
+                        <img src="images/kol1.png" class="anhto" width="480px" height="500px">
+                    </div>
+        
+                    <div class="kol-content">
+                        <img src="images/nkep.png" class="nkep" width="100px" height="90px">
+                        <blockquote>
+                        Chăm sóc sức khỏe và chọn lựa thực phẩm sạch là điều vô cùng quan trọng. 
+                        Tôi tin rằng Morri Farm sẽ mang đến những sản phẩm tốt nhất từ thiên nhiên, giúp chúng ta bảo vệ sức khỏe và môi trường sống.
+                        </blockquote>
+                            <br>
+                        <div class="kol-info">
+                            <img src="images/mytam.png" class="anhnho">
+                            <div>
+                                <span>
+                                <strong>Chị Mỹ Tâm</strong></span><br>
+                                        Ca sĩ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <!-- kol 2 -->
+                <div class="quote-slide swiper-slide">
+                    <div class="kol-Image">
+                        <img src="images/kol2.png" class="anhto" width="480px" height="500px">
+                    </div>
+        
+                    <div class="kol-content">
+                        <img src="images/nkep.png" class="nkep" width="100px" height="90px">
+                        <blockquote>
+                            Là một người cha, ai cũng mong muốn mang lại những điều tốt nhất cho gia đình, đặc biệt là cho các con của mình. 
+                            Morri-Farm giúp gia đình tôi có những phút giây thư giãn và gần gũi hơn với công việc chăm sóc rau củ.                    
+                        </blockquote>
+                            <br>
+                        <div class="kol-info">
+                            <img src="images/quyenlinh.png" class="anhnho">
+                            <div>
+                                <span>
+                                    <strong>Chú Quyền Linh</strong></span><br>
+                                    MC
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+                    <!-- kol 3 -->
+                <div class="quote-slide swiper-slide">
+                    <div class="kol-Image">
+                        <img src="images/kol3.png" class="anhto" width="480px" height="500px">
+                    </div>
+        
+                    <div class="kol-content">
+                        <img src="images/nkep.png" class="nkep" width="100px" height="90px">
+                        <blockquote>
+                            Nếu mà mệt quá giữa thành phố sống chồng lên nhau. <br>
+                            Cùng lắm thì mình về quê, mình nuôi cá và trồng thêm rau.                    
+                        </blockquote>
+                            <br>
+                        <div class="kol-info">
+                            <img src="images/denvau.png" class="anhnho">
+                            <div>
+                                <span>
+                                    <strong>Anh Đen Vâu</strong></span><br>
+                                        Rapper
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+                    <!-- kol4 -->
+                <div class="quote-slide swiper-slide">
+                    <div class="kol-Image">
+                        <img src="images/kol4.png" class="anhto" width="480px" height="500px">
+                    </div>
+            
+                    <div class="kol-content">
+                        <img src="images/nkep.png" class="nkep" width="100px" height="90px">
+                        <blockquote>
+                            Hana đã có những trải nghiệm thích thú tại vườn cây trái Morri và có một bữa ăn ngon với rau củ quả sạch.
+                            Thật tuyệt vời khi được hoà mình vào không khí mát mẻ, trong lành của nơi đây.                
+                        </blockquote>
+                        <br>  
+                        <div class="kol-info">
+                            <img src="images/hana.png" class="anhnho">
+                            <div>
+                                <span>
+                                    <strong>Hana Ban Mê</strong></span><br>
+                                        Tiktoker
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div> 
+    </div>
+</section>
+<!-- TIN TỨC -->
+ <section>
+    <div class="news"> 
+        <h3>MORRI NEWS</h3>
+        <h2>Kiến Thức & Tin Tức</h2><br><br><br>
+        <div class="post-container">
+            <div class="post">
+                <div class="postImg">
+                <img src="https://danviet.mediacdn.vn/2021/1/25/dsc2324-1611539150844170628475.jpg">
+                </div>
+                    <div class="time-container">
+                        <div class="time-items">
+                            <img src="images/morrimedia.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items">
+                            <p>Morrimedia</p>
+                        </div>
+                        <div class="time-items">
+                            <img src="images/time.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items"><p>15/05/2024</p></div>      
+                    </div>
+
+                    <div class="text-container">
+                        <div class="text-items">
+                            <a href ="#" class="text-title">Trồng ớt chuông thu về tiền tỷ</a>   
+                        </div>      <br>
+                        <div class="text-items">
+                            <p>Thương lái thu mua ớt tại vườn có những thời điểm giá ớt chuông lên tới 30.000 đồng, cao điểm 40.000 đồng...</p>
+                        </div> <br> 
+                        <a href="lienhe.html" class="btn btnnews">XEM THÊM <span class="plus">+</span></a>           <br>        
+                    </div>                    
+            </div>
+        
+            <div class="post">
+                <div class="postImg">
+                <img src="https://12cungsaoblog.files.wordpress.com/2016/06/21b12-plantas3.jpg">
+                </div>
+                    <div class="time-container">
+                        <div class="time-items">
+                            <img src="images/morrimedia.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items">
+                            <p>Morrimedia</p>
+                        </div>
+                        <div class="time-items">
+                            <img src="images/time.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items"><p>15/05/2024</p></div>      
+                    </div>
+                    <div class="text-container">
+                        <div class="text-items">
+                            <a href ="#" class="text-title">Các loại rau củ quả dễ trồng tại nhà </a>   
+                        </div>      <br>
+                        <div class="text-items">
+                            <p>Nhiều gia đình Việt đã đưa ra giải pháp trồng các loại rau củ quả dễ trồng tại nhà ...</p>
+                        </div>  <br>
+                        <a href="lienhe.html" class="btn btnnews">XEM THÊM <span class="plus">+</span></a>           <br>                    
+                    </div>                    
+            </div>
+            <div class="post">
+                <div class="postImg">
+                <img src="https://phunuvietnam.mediacdn.vn/thumb_w/700/179072216278405120/2023/10/5/ening-backyard-asian-women-trim-grass-decorating-her-garden-outdoor255544-136-16963896556691733232717-22-0-413-626-crop-16963896610381729836400-1696480569995701011897.jpg">
+                </div>
+                    <div class="time-container">
+                        <div class="time-items">
+                            <img src="images/morrimedia.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items">
+                            <p>Morrimedia</p>
+                        </div>
+                        <div class="time-items">
+                            <img src="images/time.png" width="25px" height="25px">
+                        </div>
+                        <div class="time-items"><p>15/05/2024</p></div>      
+                    </div>
+
+                    <div class="text-container">
+                        <div class="text-items">
+                            <a href ="#" class="text-title">6 mẹo hay dành cho những ai đam mê làm vườn</a>   
+                        </div>      <br>
+                        <div class="text-items">
+                            <p>Với 6 mẹo này cây trồng sẽ ngày càng xanh tốt, tiết kiệm diện tích trồng trọt ...</p>
+                        </div>  <br>
+                        <a href="lienhe.html" class="btn btnnews">XEM THÊM <span class="plus">+</span></a>           <br>                   
+                    </div>                    
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <img src="images/logo.png" width="130px" height="100px" alt="logo">
+            <h2>Công Ty TNHH Morri Farm</h3>
+            <p>Trụ sở: 12 Chùa Bộc, Đống Đa, Hà Nội</p>
+            <p>Trang trại: Thôn 1, Xã Đạ Ròn, Đơn Đương, Lâm Đồng, Việt Nam</p>
+            <a href="mailto:morrrifarm@gmail.com" class="contact"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            morrrifarm@gmail.com</a><br>
+            <a href="tel:0927543137"><svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+            0927543137</a>
+        </div>
+        <div class="footer-gioithieu">
+            <h3>Giới Thiệu</h3>
+            <ul>
+                <li><a href="">>> &nbsp; Giới thiệu</a></li>
+                <li><a href="">>> &nbsp; Tin tức</a></li>
+                <li><a href="">>> &nbsp; Đội ngũ</a></li>
+                <li><a href="">>> &nbsp; Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="footer-sanpham">
+            <h3>Sản Phẩm</h3>
+            <ul>
+                <li><a href="">>> &nbsp; Rau ăn quả</a></li>
+                <li><a href="">>> &nbsp; Rau ăn lá</a></li>
+                <li><a href="">>> &nbsp; Rau ăn củ</a></li>
+            </ul>
+        </div>
+        <div class="footer-phanphoi">
+            <h3>Hệ Thống Phân Phối</h3>
+            <ul class="image-container">
+                <li class="footer-item">
+                    <img src="https://aeonmall-vietnam.com/wp-content/uploads/2017/01/intro-aeon-logo-vi.jpg" alt="eon" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+                <li class="footer-item">
+                    <img src="https://thisomallsala.vn:441/Resource/Images/Outlet/EMART10/Icon/Icon_200_200.webp" alt="" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+                <li class="footer-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Lq1y9qMuZVnIL2943ii6xNSeuYOwTLmZYA&s" alt="" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+                <li class="footer-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbSB_3Yx-dFU9rNdQqfLb2c9DIwIjtSCqlJA&s" alt="" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+                <li class="footer-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICNVhNtu201wydLMcf3xqQm3aSJvArGC5Lg&s" alt="" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+                <li class="footer-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITUlThEepRoXaHMbr8-cQd1NRNHYW08Ouew&s" alt="" class="footer-img" style="width: 50px; height: 50px;">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Bản quyền <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg>&nbsp;2024 Morri-Farm - Lập trình và thiết kế bởi Nhóm 2</p>
+    </div>
+</footer>
+
+<!-- js của vòng tròn % -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<!-- js quotes -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+<!-- button back to top -->
+<button onclick="topFunction()" id="myBtn" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+</body>
+</html>
