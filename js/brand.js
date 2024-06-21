@@ -160,3 +160,25 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.to(submitButton, { scale: 1, duration: 0.1, ease: "power1.inOut" });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  // Hiệu ứng khi các bài viết xuất hiện trên màn hình khi cuộn chuột
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray(".blog-item").forEach((item) => {
+    gsap.fromTo(
+      item,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: item,
+          start: "top 80%",
+          end: "bottom 60%",
+          toggleActions: "play none none reverse",
+        },
+      }
+    );
+  });
+});
