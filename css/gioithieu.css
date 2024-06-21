@@ -47,6 +47,7 @@ a {
 }
 
 .section-title h3 {
+    font-family: "Signika", sans-serif;
     font-size: 45px;
     line-height: 50px;
     color: #363636;
@@ -228,6 +229,7 @@ a {
     margin-bottom: 20px;
 }
 .approch-area .section-title h3{
+    font-family: "Signika", sans-serif;
     font-size: 45px;
     line-height: 50px;
     color: #fff;
@@ -308,6 +310,7 @@ a {
     margin-bottom: 20px;
 }
 .testimonial-area .section-title .section-title h3 {
+    font-family: "Signika", sans-serif;
     font-size: 45px;
     line-height: 50px;
     color: #363636;
@@ -457,6 +460,7 @@ a {
     background-color: #f2f9ec;
 }
 .faq-wrap h3 {
+    font-family: "Signika", sans-serif;
     font-size: 60px;
     line-height: 70px;
     color: #363636;
