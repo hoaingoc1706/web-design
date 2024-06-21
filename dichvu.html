@@ -243,18 +243,38 @@
                     <div class="col-xl-12">
                         <div class="video-wrap mb--160">
                             <div class="take-care-of__content">
-                                <a href="#" class="play-animation popup-video">
-                                    <i class="fas fa-play"></i>
-                                    <span class="shape"></span>
-                                </a>
-                                <h3>Quy trình chăm sóc cây</h3>
+                                <h3 id="video-title">Quy trình chăm sóc cây</h3>
+                                <div class="video-container">
+                                    <a class="play-animation popup-video">
+                                        <i class="fas fa-play"></i>
+                                        <span class="shape"></span>
+                                    </a>
+                                    <video controls poster="./images/video-bg.jpg" id="video">
+                                        <source src="./images/takecare.mov" type="video/mp4">
+                                        Trình duyệt của bạn không hỗ trợ video này.
+                                    </video>
+                                    <img src="./images/video-bg.jpg" alt="Video Poster" class="video-poster" id="video-poster">
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
+    
+        <script>
+            document.getElementById('video').addEventListener('play', function() {
+                document.getElementById('video-poster').style.display = 'none';
+                document.getElementById('video-title').style.display = 'none';
+                document.querySelector('.play-animation').style.display = 'none'; // Ẩn nút play khi video bắt đầu chạy
+            });
+        
+            document.querySelector('.play-animation').addEventListener('click', function() {
+                var video = document.getElementById('video');
+                video.play();
+                document.querySelector('.play-animation').style.display = 'none'; // Ẩn nút play khi đã click để bắt đầu video
+            });
+        </script>
 
         <secttion class="morri">
             <div class="container">
