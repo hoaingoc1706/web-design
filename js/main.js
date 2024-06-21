@@ -129,12 +129,12 @@ function initChart($container) {
 
     $chart.easyPieChart({
         scaleColor: false,
-        lineWidth: 15,
+        lineWidth: 12,
         lineCap: 'round',
         barColor: $color,
         trackColor: '#f0f0f0',
         size: 200, // kích thước biểu đồ
-        animate: 1700,
+        animate: 2500,
         onStep: function(from, to, percent) {
             $(this.el).find('.percent').text(Math.round(percent) + '%');
         }
@@ -149,22 +149,6 @@ $.fn.isInViewport = function() {
     var viewportBottom = viewportTop + $(window).height();
     return elementBottom > viewportTop && elementTop < viewportBottom;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // QUOTES  
 var mySwiper = new Swiper('.swiper-container', {
