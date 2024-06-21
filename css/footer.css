@@ -73,6 +73,25 @@ footer a:hover{
 /* reponsive footer */
 @media (max-width: 1200px){
     .footer-container{
-        margin-left: 5%;
+        margin-left: 3%;
+    }
+}
+@media (max-width: 767px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-container > * {
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+    .image-container {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .footer-bottom {
+        width: 100%;
     }
 }

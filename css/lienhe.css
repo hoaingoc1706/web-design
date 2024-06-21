@@ -225,3 +225,68 @@ iframe {
     transform: translate(-50%, -50%);
   }
 }
+@media screen and (max-width: 768px) {
+  .contact-area{
+    margin-top:350px;
+  }
+  .contact-bg {
+      padding: 30px;
+      width: 100%;
+      box-shadow: none;
+      margin-bottom: 0;
+  }
+  .form-ten-sdt {
+      width: 100%;
+      flex-direction: column;
+  }
+  .width {
+      width: 100%;
+  }
+  .contact-address-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact-address-wrapper {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .contact-address-wrapper ul {
+      padding-left: 0;
+  }
+  .brand {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 10px;
+  }
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer-info, .footer-gioithieu, .footer-sanpham, .footer-phanphoi {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .contact-area {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact-address-content {
+      padding: 5px 5px; /* Adjust padding for better spacing */
+  }
+  .contact-address-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+  }
+  .contact-address-wrapper img {
+      display: none;
+  }
+  /* Fix overlapping issue */
+  .bookmark {
+      margin-bottom: 350px; /* Adjust this value as needed */
+  }
+  .contact-address-wrapper {
+      margin-top: 20px;
+  }
+}
