@@ -5,13 +5,11 @@ a {
 li {
     list-style: none;
 }
-
 .container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
-
 .hero {
     width: 100%;
     /* Chiều cao toàn màn hình */
@@ -335,10 +333,12 @@ li {
 
 .take-care-of__content h3 {
     color: #fff;
-    font-size: 65px;
-    line-height: 65px;
+    font-family: "Signika", sans-serif;
+    font-size: 50px;
+    line-height: 100px;
     font-weight: 600;
     padding: 0 200px;
+    font-size: 50px;
 }
 
 /* Section morri */
