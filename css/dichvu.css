@@ -234,7 +234,7 @@ li {
 .take-care-of {}
 
 .take-care-of .container {
-    width: 100%;
+    width: 80%;
 
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -255,7 +255,30 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
 
+.video-container {
+    position: relative;
+    width: 70%; /* Thay đổi kích thước video */
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.video-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
 }
 
 .play-animation {
@@ -265,12 +288,15 @@ li {
     line-height: 80px;
     font-size: 20px;
     color: #fff;
-    position: relative;
     background: #ffb500;
     border-radius: 50%;
     text-align: center;
-    z-index: 1;
-    margin-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    cursor: pointer;
 }
 
 .play-animation:before {
@@ -333,12 +359,13 @@ li {
 
 .take-care-of__content h3 {
     color: #fff;
-    font-family: "Signika", sans-serif;
-    font-size: 50px;
-    line-height: 100px;
+    font-size: 65px;
+    line-height: 65px;
     font-weight: 600;
     padding: 0 200px;
-    font-size: 50px;
+    position: absolute;
+    top: 80px; /* Di chuyển tiêu đề lên trên */
+    z-index: 2;
 }
 
 /* Section morri */
