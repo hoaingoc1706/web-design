@@ -240,7 +240,7 @@ li {
 
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../img/video-bg.jpg);
+        url(../images/video-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -521,7 +521,7 @@ li {
 
 /* Section brand */
 .brand{
-    background-image: url('../img/brand-bg.png');
+    background-image: url('../images/brand-bg.png');
     background-color: #7dc642;
 }
 .brand .container{
