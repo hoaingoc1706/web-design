@@ -477,6 +477,52 @@ a {
 }
 
 /* Section fag - area */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.fag-area {
+    padding: 20px;
+}
+
+.faq-wrap {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-wrap h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accordion-wrapper .accordion-wrap {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.accordion-wrapper .accordion-header button {
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-wrapper .accordion-header button:focus {
+    outline: none;
+}
+
+.accordion-wrapper .accordion-body {
+    padding: 10px;
+    font-size: 16px;
+}
 .fag-area{
     width: 100%;
     background-size: cover;
