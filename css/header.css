@@ -44,6 +44,23 @@ ul {
 .contact:hover {
   color: rgb(249, 104, 0);
 }
+#header{ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: top 0.3s ease-in-out; 
+    z-index: 1000;
+}
+#header.fixed {
+  position: fixed; 
+  top: 0;
+  animation: slideDown 0.3s ease-in-out; 
+}
+@keyframes slideDown {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
 #main-header {
   background-color: #151f2d;
   display: flex;
@@ -123,12 +140,7 @@ ul {
 .sp-menu li:hover {
   border-bottom: 1px solid #c1bfbf;
 }
-#header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
+
 a {
   text-decoration: none;
   color: white;

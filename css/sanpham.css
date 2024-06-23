@@ -71,7 +71,8 @@
 }
 .rauanla,.rauancu{
     display: flex;
-    margin:40px 40px;
+   margin: 40px 40px; 
+
 }
 .rauanqua{
     margin-top:80px;
@@ -99,13 +100,15 @@
     margin-top: 20px;
    
 }
+
 .bookmark {
     position: relative;
     min-height: 450px;
-    background-image: url(../images/sanpham.jpg);
+    background-image: url(../images/sanpham.gif);
     background-size: cover;
     text-align: center;
     font-family: "Signika", sans-serif;
+        
 }
 
 .bookmark::before {

@@ -256,7 +256,7 @@ ul{
     background-color: black; 
 }
 .product-image img {
-    width: 100px; /* Adjust size as necessary */
+    width: 100px; 
     height: auto;
   }
   
@@ -267,8 +267,28 @@ ul{
   }
   
   .special-offer {
-    color: red; /* Highlight special offers */
+    color: red; 
     font-weight: bold;
+  }
+  @keyframes show{
+    0%{
+        color:red;
+    }
+    25%{
+        color:#f28123;
+    }
+    50%{
+        color:#479f00;
+    }
+    75%{
+        color:purple;
+    }
+    100%{
+        color:rgb(34, 135, 249)
+    }
+  }
+  .special-offer h4{
+    animation: show 1s infinite;
   }
   .modal{
     font-family: Arial, Helvetica, sans-serif;
