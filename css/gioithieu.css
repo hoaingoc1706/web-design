@@ -289,41 +289,67 @@ a {
 }
 
 /* testimonial-area */
-.testimonial-area{
- padding-top: 130px;
- padding-bottom: 100px;
+.testimonial-area {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
 }
-.testimonial-area .row{
+
+.testimonial-area .row {
     margin-bottom: 50px;
 }
-.testimonial-area .section-title {
+
+.section-title {
+    margin-bottom: 30px;
     position: relative;
     padding: 15px 0;
     z-index: 1;
     text-align: center;
 }
-.testimonial-area .section-title .section-title h5 {
+
+.section-title h5 {
     color: #7dc642;
     font-size: 24px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 20px;
 }
-.testimonial-area .section-title .section-title h3 {
+
+.section-title h3 {
     font-family: "Signika", sans-serif;
     font-size: 45px;
     line-height: 50px;
     color: #363636;
     margin-bottom: 0;
 }
+
 .section-title.text-center .icon {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .testimonial-slider {
     padding-bottom: 106px;
     margin: 0 auto;
 }
+
+.testimonial-slide {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img img, .author-thumb img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.rating i {
+    color: #f1c40f;
+}
+
 .testimonial-slider .slick-prev {
     position: absolute;
     left: -150px;
@@ -337,29 +363,45 @@ a {
     font-size: 22px;
     color: #7dc642;
 }
+
+.testimonial-slider .slick-prev:hover {
+    color: #fff;
+    background: #7dc642;
+}
+
+.testimonial-slider .slick-next:hover {
+    color: #fff;
+    background: #7dc642;
+}
+
 .testimonial-slide .testimonial-details {
     margin-left: 50px;
 }
+
 .testimonial-slide .testimonial-details .rating {
     font-size: 18px;
     color: #7dc642;
     margin-bottom: 18px;
 }
+
 .testimonial-slide .testimonial-details > p {
     color: #363636;
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 0;
 }
+
 .testimonial-slide .testimonial-details .author-wrap {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 25px;
 }
+
 .testimonial-slide .testimonial-details .author-wrap .author-thumb {
     width: 80px;
 }
+
 .testimonial-slide .testimonial-details .author-wrap .author-thumb img {
     width: 60px;
     height: 60px;
@@ -367,6 +409,7 @@ a {
     border-radius: 50%;
     box-shadow: 0 3px 11px 0 rgba(125, 198, 66, 0.6);
 }
+
 .testimonial-slide .testimonial-details .author-wrap .author-text {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -374,36 +417,19 @@ a {
     flex-grow: 1;
     max-width: 100%;
 }
-.testimonial-slide-2 .testimonial-details .author-wrap .author-text h5, .testimonial-slide .testimonial-details .author-wrap .author-text h5 {
+
+.testimonial-slide-2 .testimonial-details .author-wrap .author-text h5,
+.testimonial-slide .testimonial-details .author-wrap .author-text h5 {
     font-size: 22px;
 }
+
 .testimonial-slide .testimonial-details .author-wrap .author-text p {
     font-weight: 600;
     font-size: 13px;
     color: #7dc642;
     margin-bottom: 0;
 }
-.testimonial-slider .slick-prev:hover {
-    color: #fff;
-    background: #7dc642;
-}
-.testimonial-slider .slick-next:hover {
-    color: #fff;
-    background: #7dc642;
-}
-.testimonial-slider .slick-dots li.slick-active button {
-    background: #87c856;
-    transform: scale(1.3);
-}
-.testimonial-slider .slick-dots li button {
-    background: #fff;
-    border: 3px solid #87c856;
-    width: 20px;
-    height: 20px;
-    display: block;
-    border-radius: 50%;
-    font-size: 0;
-}
+
 .testimonial-slider .slick-dots {
     position: absolute;
     left: 50%;
@@ -413,6 +439,26 @@ a {
     margin: 0;
     padding: 0;
 }
+
+.testimonial-slider .slick-dots li {
+    margin: 0 5px;
+}
+
+.testimonial-slider .slick-dots li.slick-active button {
+    background: #87c856;
+    transform: scale(1.3);
+}
+
+.testimonial-slider .slick-dots li button {
+    background: #fff;
+    border: 3px solid #87c856;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    font-size: 0;
+}
+
 .slick-dots li button:before {
     font-family: slick;
     font-size: 6px;

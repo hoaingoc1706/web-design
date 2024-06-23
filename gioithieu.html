@@ -13,6 +13,12 @@
             crossorigin="anonymous">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Slick JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/dichvu.css">
         <link rel="stylesheet" href="./css/footer.css">
@@ -102,7 +108,7 @@
                                 <li><a href="doingu.html" class="nav-mobile">ĐỘI NGŨ</a></li>
                                 <li><a href="lienhe.html" class="nav-mobile">LIÊN HỆ</a></li>
                                 <li><a href="danhnhap.html" class="nav-mobile">ĐĂNG NHẬP</a></li>
-                                <li><a href="giohang.html" class="nav-mobile">GIỎ HÀNG CỦA BẠN</a></li>
+                                <li><a href="src/giohang.html" class="nav-mobile">GIỎ HÀNG CỦA BẠN</a></li>
                             </ul>  
                     </div>
                 </div> 
@@ -407,272 +413,143 @@
 
         </div>
     </section>
-    <section class="testimonial-area">
-        <div class="container">
-            <div class="testimonial-area__content">
-                <div class="row justify-content-center mb-50">
-                    <div class="col-xl-5 col-lg-6 col-md-10">
-                        <div class="section-title text-center">
-                            <h5>Đánh giá</h5>
-                            <h3>Đánh giá của khách hàng</h3>
-                            <div class="icon">
-                                <img decoding="async"
-                                    src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/icon-5.png"
-                                    alt="icon">
-                            </div>
+   <section class="testimonial-area">
+    <div class="container">
+        <div class="testimonial-area__content">
+            <div class="row justify-content-center mb-50">
+                <div class="col-xl-5 col-lg-6 col-md-10">
+                    <div class="section-title text-center">
+                        <h5>Đánh giá</h5>
+                        <h3>Đánh giá của khách hàng</h3>
+                        <div class="icon">
+                            <img decoding="async" src="./images/danhgia1.png" alt="icon">
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="testimonial-slider slick-initialized slick-slider slick-dotted">
-
-                            <div class="slick-list draggable">
-                                <div class="slick-track"
-                                    style="opacity: 1; width: 8190px; transform: translate3d(-2340px, 0px, 0px);">
-                                    <div class="testimonial-slide slick-slide slick-cloned" data-slick-index="-1"
-                                        aria-hidden="true" style="width: 1170px;" tabindex="-1">
-
-                                        <div class="row justify-content-center align-items-center">
-
-                                            <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
-
-
-                                                <div class="testimonial-img">
-
-                                                    <img decoding="async"
-                                                        src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-lg.png"
-                                                        alt="author">
-
-                                                </div>
-
-
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-8 col-md-10">
-
-                                                <div class="testimonial-details">
-
-                                                    <div class="rating">
-
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-
-                                                    </div>
-
-
-                                                    <p>Với chất lượng ổn định, giá trị hợp lý và dịch vụ xuất sắc, Morri
-                                                        là điểm đến lý tưởng cho những người yêu trái cây. Mỗi lần ghé
-                                                        thăm, tôi luôn hài lòng với sự tươi mới và dinh dưỡng của sản
-                                                        phẩm.</p>
-
-
-                                                    <div class="author-wrap">
-
-
-
-
-                                                        <div class="author-thumb">
-
-                                                            <img decoding="async"
-                                                                src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg"
-                                                                alt="author">
-
-                                                        </div>
-
-
-
-
-                                                        <div class="author-text">
-
-
-                                                            <h5>Ngân Bạch</h5>
-
-
-
-
-
-                                                            <p>Web Designer</p>
-
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testimonial-slider">
+                        <!-- Slide 1 -->
+                        <div class="testimonial-slide">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
+                                    <div class="testimonial-img">
+                                        <img decoding="async" src="./images/danhgia1.png" alt="author">
                                     </div>
-                                    <div class="testimonial-slide slick-slide" data-slick-index="0" aria-hidden="true"
-                                        style="width: 1170px;" tabindex="-1" role="tabpanel" id="slick-slide00"
-                                        aria-describedby="slick-slide-control00">
-
-                                        <div class="row justify-content-center align-items-center">
-
-                                            <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
-
-
-                                                <div class="testimonial-img">
-
-                                                    <img decoding="async"
-                                                        src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-lg.png"
-                                                        alt="author">
-
-                                                </div>
-
-
+                                </div>
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="testimonial-details">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Với chất lượng ổn định, giá trị hợp lý và dịch vụ xuất sắc, Morri là điểm đến lý tưởng cho những người yêu trái cây. Mỗi lần ghé thăm, tôi luôn hài lòng với sự tươi mới và dinh dưỡng của sản phẩm.</p>
+                                        <div class="author-wrap">
+                                            <div class="author-thumb">
+                                                <img decoding="async" src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg" alt="author">
                                             </div>
-
-                                            <div class="col-xl-6 col-lg-8 col-md-10">
-
-                                                <div class="testimonial-details">
-
-                                                    <div class="rating">
-
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-
-                                                    </div>
-
-
-                                                    <p>Morri là địa chỉ tuyệt vời cho trái cây tươi ngon, với sự đa dạng
-                                                        và chất lượng không thể chối cãi. Họ luôn mang đến những lựa
-                                                        chọn tốt nhất từ cả loại trái cây mùa và hiếm.</p>
-
-                                                    <div class="author-wrap">
-                                                        <div class="author-thumb">
-
-                                                            <img decoding="async"
-                                                                src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg"
-                                                                alt="author">
-
-                                                        </div>
-                                                        <div class="author-text">
-                                                            <h5>Lê Phát</h5>
-                                                            <p>Web Designer</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="author-text">
+                                                <h5>Ngân Bạch</h5>
+                                                <p>Web Designer</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="testimonial-slide slick-slide slick-current slick-active"
-                                        data-slick-index="1" aria-hidden="false" style="width: 1170px;" tabindex="0"
-                                        role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-
-                                        <div class="row justify-content-center align-items-center">
-
-                                            <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
-
-
-                                                <div class="testimonial-img">
-
-                                                    <img decoding="async"
-                                                        src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-lg.png"
-                                                        alt="author">
-
-                                                </div>
-
-
-                                            </div>
-
-                                            <div class="col-xl-6 col-lg-8 col-md-10">
-
-                                                <div class="testimonial-details">
-
-                                                    <div class="rating">
-
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-                                                        <i class="fas fa-star"></i>
-
-
-                                                    </div>
-
-
-                                                    <p>Morri không chỉ là cửa hàng trái cây, mà còn là trải nghiệm độc
-                                                        đáo với sự đa dạng từ các loại quốc tế đến địa phương. Dịch vụ
-                                                        chăm sóc khách hàng tận tâm giúp tôi lựa chọn trái cây phù hợp
-                                                        nhất.</p>
-
-
-                                                    <div class="author-wrap">
-
-
-
-
-                                                        <div class="author-thumb">
-
-                                                            <img decoding="async"
-                                                                src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg"
-                                                                alt="author">
-
-                                                        </div>
-
-
-
-
-                                                        <div class="author-text">
-                                                            <h5>Trí Nguyễn</h5>
-                                                            <p>Web Designer</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
-
-
-                            <ul class="slick-dots" style="" role="tablist">
-                                <li class="" role="presentation"><button type="button" role="tab"
-                                        id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3"
-                                        tabindex="-1">1</button></li>
-                                <li role="presentation" class="slick-active"><button type="button" role="tab"
-                                        id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3"
-                                        tabindex="0" aria-selected="true">2</button></li>
-                                <li role="presentation" class=""><button type="button" role="tab"
-                                        id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3"
-                                        tabindex="-1">3</button></li>
-                            </ul>
                         </div>
+                        <!-- Slide 2 -->
+                        <div class="testimonial-slide">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
+                                    <div class="testimonial-img">
+                                        <img decoding="async" src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-lg.png" alt="author">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="testimonial-details">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Morri là địa chỉ tuyệt vời cho trái cây tươi ngon, với sự đa dạng và chất lượng không thể chối cãi. Họ luôn mang đến những lựa chọn tốt nhất từ cả loại trái cây mùa và hiếm.</p>
+                                        <div class="author-wrap">
+                                            <div class="author-thumb">
+                                                <img decoding="async" src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg" alt="author">
+                                            </div>
+                                            <div class="author-text">
+                                                <h5>Lê Phát</h5>
+                                                <p>Web Designer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="testimonial-slide">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-xl-4 col-lg-4 d-none d-xl-block d-lg-block">
+                                    <div class="testimonial-img">
+                                        <img decoding="async" src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-lg.png" alt="author">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="testimonial-details">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p>Morri không chỉ là cửa hàng trái cây, mà còn là trải nghiệm độc đáo với sự đa dạng từ các loại quốc tế đến địa phương. Dịch vụ chăm sóc khách hàng tận tâm giúp tôi lựa chọn trái cây phù hợp nhất.</p>
+                                        <div class="author-wrap">
+                                            <div class="author-thumb">
+                                                <img decoding="async" src="https://shtheme.org/demosd/fudee/wp-content/uploads/2020/08/author-1.jpg" alt="author">
+                                            </div>
+                                            <div class="author-text">
+                                                <h5>Trí Nguyễn</h5>
+                                                <p>Web Designer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more slides as needed -->
                     </div>
-
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Initialize Slick Slider -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.testimonial-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            adaptiveHeight: true
+        });
+    });
+</script>
+<!-- Font Awesome for star icons (optional) -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            
     <section class="fag-area">
         <div class="container-fluid pl-0 pr-0">
             <div class="row no-gutters justify-content-end">
@@ -681,7 +558,6 @@
                         <h3>Các câu hỏi thường gặp</h3>
 
                         <div class="accordion-wrapper" id="accordion-1">
-
 
                             <div class="accordion-wrap">
                                 <div class="accordion-header" id="heading-4">
@@ -696,7 +572,6 @@
                                         để đảm bảo khách hàng nhận được sản phẩm tốt nhất. </div>
                                 </div>
                             </div>
-
 
                             <div class="accordion-wrap">
                                 <div class="accordion-header" id="heading-5">
