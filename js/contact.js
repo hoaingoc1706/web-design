@@ -90,3 +90,23 @@ btnSubmit.addEventListener("mouseup", (e) => {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+ 
+  gsap.registerPlugin(ScrollTrigger);
+  console.log("ScrollTrigger và GSAP đã được khởi tạo");
+
+  gsap.from(".contact-bg", {
+    scrollTrigger: {
+      trigger: ".contact-bg",
+      start: "top 60%", // Khi phần tử xuất hiện ở 60% từ đỉnh màn hình
+      end: "bottom 60%",
+      toggleActions: "play none none reverse",
+      markers: false,
+    },
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    ease: "power1.inOut",
+  });
+  
+});

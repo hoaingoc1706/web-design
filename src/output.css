@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Signika",sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -195,7 +195,6 @@ table {
 */
 
 button,
-input,
 optgroup,
 select,
 textarea {
@@ -220,7 +219,6 @@ textarea {
   padding: 0;
   /* 3 */
 }
-
 /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
@@ -389,7 +387,6 @@ input::placeholder,
 textarea::placeholder {
   opacity: 1;
   /* 1 */
-  color: #9ca3af;
   /* 2 */
 }
 
@@ -417,7 +414,6 @@ Make sure disabled buttons don't get the pointer cursor.
 */
 
 img,
-svg,
 video,
 canvas,
 audio,
